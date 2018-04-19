@@ -1,0 +1,29 @@
+var size = 8;
+var board = '';
+
+for (y = 0; y < size; y ++) {
+<!-- Apparently javascript understands that even though var is not stated before y (and x below) it
+takes it as a variable. Lucky me. -->
+  for (x = 0; x < size; x ++) {
+      if ((x + y) % 2 == 0)
+        board += ' ';
+      else
+        board += '#';
+}
+  board += '\n'
+}
+console.log(board);
+
+
+
+<!--  for (var federick = ''; ; federick += ' # # # #', document.write('\n'), federick += '# # # # ') {
+      if (federick.length = 8) {break;}
+      console.log(federick)
+ }
+
+
+ for (var federick = ''; federick.length < 8; federick += ' #')
+   if (federick.length = 8) {
+     console.log(federick) && document.write('\n')
+   } else { break;
+   }

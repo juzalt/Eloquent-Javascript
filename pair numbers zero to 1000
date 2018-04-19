@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+<script>
+var number = 0;
+while (number <= 1000) {
+  console.log(number);
+  number = number + 2;
+}
+</script>
+</body>

@@ -1,0 +1,5 @@
+for (numeral = '#'; numeral.length < 8; numeral += '#') {
+  if (numeral.length % 8 == 0)
+      break;
+      else console.log(numeral);
+}
